@@ -1,0 +1,29 @@
+{
+  "name": "tdd-thebigpicture-typescript",
+  "version": "1.0.0",
+  "description": "This is the repository for my code-kata from the Pluralsight course [*Test-driven Development: The Big Picture*](https://app.pluralsight.com/library/courses/test-driven-development-big-picture/transcript)",
+  "main": "app.ts",
+  "scripts": {
+    "comp": "tsc",
+    "comp:watch": "tsc --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilanUse/TDD-TheBigPicture-Typescript.git"
+  },
+  "author": "Dilan Useche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DilanUse/TDD-TheBigPicture-Typescript/issues"
+  },
+  "homepage": "https://github.com/DilanUse/TDD-TheBigPicture-Typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.0.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
